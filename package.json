@@ -1,0 +1,30 @@
+{
+  "name": "karma-mocha-as-promised",
+  "version": "0.1.0",
+  "description": "A Karma plugin - adapter for mocha-as-promised.",
+  "main": "./index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmendiara/karma-mocha-as-promised.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmendiara/karma-mocha-as-promised/issues"
+  },
+  "homepage": "https://github.com/jmendiara/karma-mocha-as-promised",
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "mocha",
+    "mocha-as-promised"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "karma": "0.10.x",
+    "mocha-as-promised": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-release": "~0.7.0"
+  }
+}
