@@ -28,6 +28,18 @@ module.exports = function(config) {
     // ...
 ```
 
+
+Usage with karma-requirejs
+--------------------------
+
+Make sure you place `requirejs` first in the order of your frameworks.
+
+```js
+frameworks: ['requirejs', 'mocha-as-promised', 'mocha'],
+```
+
+If not you will get a `Mismatched anonymous define() module` error
+
 ---
 
 License
