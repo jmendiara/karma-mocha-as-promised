@@ -4,6 +4,16 @@
   "description": "A Karma plugin - adapter for mocha-as-promised.",
   "main": "./index.js",
   "license": "MIT",
+  "author": {
+    "name": "Javier Mendiara Cañardo",
+    "email": "jmendiara@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Martin Hansen",
+      "email": "martin@martinhansen.no"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jmendiara/karma-mocha-as-promised.git"
