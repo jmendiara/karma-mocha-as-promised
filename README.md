@@ -1,5 +1,4 @@
-karma-mocha-as-promised
-======================
+# karma-mocha-as-promised
 
 [Mocha as promised](https://github.com/domenic/mocha-as-promised) for [Karma](http://karma-runner.github.io)
 
@@ -7,8 +6,7 @@ karma-mocha-as-promised
 * It uses `peerDependencies` only.
 * No `bower` dependency.
 
-Installation
-------------
+## Installation
 
 Install the plugin from npm:
 
@@ -16,7 +14,10 @@ Install the plugin from npm:
 $ npm install karma-mocha-as-promised --save-dev
 ```
 
-Add `mocha-as-promised` before `mocha` to the `frameworks` key in your Karma configuration:
+## Usage
+
+After installing [karma-mocha](https://github.com/karma-runner/karma-mocha),
+add `mocha-as-promised` before `mocha` to the `frameworks` key in your Karma configuration:
 
 ```js
 module.exports = function(config) {
@@ -29,21 +30,19 @@ module.exports = function(config) {
 ```
 
 
-Usage with karma-requirejs
---------------------------
+### Usage with karma-requirejs
 
-Make sure you place `requirejs` first in the order of your frameworks.
+If you are going to use [karma-requirejs](https://github.com/karma-runner/karma-requirejs), make sure you place `requirejs` first in the order of your frameworks.
 
 ```js
-frameworks: ['requirejs', 'mocha-as-promised', 'mocha'],
+frameworks: ['requirejs', 'mocha-as-promised', 'mocha']
 ```
 
-If not you will get a `Mismatched anonymous define() module` error
 
----
+## Contributors
+[Martin Hansen](https://github.com/mokkabonna): Documentation update
 
-License
--------
 
+## License
 MIT Licensed
 
